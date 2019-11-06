@@ -9,11 +9,11 @@ import React, {Component} from 'react';
 import { StyleSheet, Text } from 'react-native';
 import { Block } from '../components';
 
-export default class Login extends Component {
+export default class Forgot extends Component {
     render() {
         return (
             <Block>
-                <Text>Login</Text>
+                <Text>Forgot</Text>
             </Block>
         )
     }
