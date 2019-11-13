@@ -122,7 +122,6 @@ class Welcome extends Component {
 
     render() {
         const {navigation} = this.props;
-
         return (
             <Block>
                 <Block center bottom flex={0.4}>
@@ -142,8 +141,8 @@ class Welcome extends Component {
                     <Button gradient onPress={() => navigation.navigate('Login')}>
                         <Text center semibold white>Login</Text>
                     </Button>
-                    <Button shadow onPress={() => navigation.navigate('Signup')}>
-                        <Text center semibold>SignUp</Text>
+                    <Button shadow onPress={() => navigation.navigate('SignUp')}>
+                        <Text center semibold>Sign Up</Text>
                     </Button>
                     <Button onPress={() => this.setState({showTerms: true})}>
                         <Text center caption semibold gray>Terms of Service</Text>

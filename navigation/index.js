@@ -15,8 +15,8 @@ import SignUp from '../screens/Signup';
 import {theme} from '../constants';
 
 const screens = createStackNavigator({
-    Welcome,
-    Login,
+        Welcome,
+        Login,
     SignUp,
     Forgot,
     Explore,
@@ -27,13 +27,13 @@ const screens = createStackNavigator({
   {
     defaultNavigationOptions: {
       headerStyle: {
-        // height: theme.sizes.base * 4,
-        // backgroundColor: theme.colors.white,
-        // borderBottomColor: 'transparent',
-        // elevation: 0,
+        height: theme.sizes.base * 4,
+        backgroundColor: theme.colors.white,
+        borderBottomColor: 'transparent',
+        elevation: 0,
       },
       headerBackImage: <Image source={require('../assets/icons/back.png')}/>,
-      // headerBackTitle: null,
+      headerBackTitle: null,
       headerLeftContainerStyle: {
         alignItems: 'center',
         marginLeft: theme.sizes.base * 2,
