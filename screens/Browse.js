@@ -9,7 +9,6 @@ import React, {Component} from 'react';
 import {StyleSheet, Image, TouchableOpacity, ScrollView} from 'react-native';
 import {Block, Text, Button, Card, Badge} from '../components';
 import {theme, mocks} from '../constants';
-import {categories} from '../constants/mocks';
 
 class Browse extends Component {
     state = {

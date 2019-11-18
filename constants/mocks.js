@@ -75,9 +75,9 @@ const explore = [
 ];
 
 const profile = {
-    username: 'react-ui-kit',
-    location: 'Europe',
-    email: 'contact@react-ui-kit.com',
+    username: 'Caio Franco',
+    location: 'Uberlândia, MG',
+    email: 'caiofranco@reactnative.com',
     avatar: require('../assets/images/avatar.png'),
     budget: 1000,
     monthly_cap: 5000,
