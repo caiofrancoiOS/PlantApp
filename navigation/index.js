@@ -10,7 +10,7 @@ import Browse from '../screens/Browse';
 import Product from '../screens/Product';
 import Settings from '../screens/Settings';
 import Forgot from '../screens/Forgot';
-import SignUp from '../screens/Signup';
+import SignUp from '../screens/SignUp';
 
 import {theme} from '../constants';
 

@@ -80,7 +80,7 @@ export default class Input extends Component {
         ];
 
         const inputType = email
-        ? 'email-adderss' : number
+        ? 'email-address' : number
         ? 'numeric' : phone
         ? 'phone-pad' : 'default';
 
